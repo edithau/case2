@@ -1,4 +1,4 @@
-# Interview Test
+# Case study on API development
 
 In this exercise you will authenticate a user with credentials and provide them with a session to perform other actions.
 
@@ -56,3 +56,8 @@ $ go run cmd/client/client.go
 1. The client will login using the credentials of the _Test user_ and get a JWT.
 2. Get the info of team ID *ch72gsb320000000000000000*.
 3. Print the JSON response to stdout.
+
+
+## Completion
+
+Submit a PR to this repo merging into master with an explanation of your changes.

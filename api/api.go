@@ -7,7 +7,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/InVisionApp/interview-test/api/dal"
+	"github.com/InVisionApp/case-study/api/dal"
 	"github.com/InVisionApp/rye"
 	"github.com/gorilla/mux"
 )

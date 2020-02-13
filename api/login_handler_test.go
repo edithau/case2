@@ -12,8 +12,8 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/InVisionApp/interview-test/api/dal"
-	"github.com/InVisionApp/interview-test/api/session"
+	"github.com/InVisionApp/case-study/api/dal"
+	"github.com/InVisionApp/case-study/api/session"
 	"github.com/InVisionApp/rye"
 	jwtgo "github.com/dgrijalva/jwt-go"
 )
