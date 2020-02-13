@@ -1,6 +1,6 @@
 package dal
 
-import "github.com/InVisionApp/interview-test/api/team"
+import "github.com/InVisionApp/case-study/api/team"
 
 // DAL is a simple interface to manage datastores.
 type DAL interface {

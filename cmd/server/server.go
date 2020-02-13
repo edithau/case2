@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/InVisionApp/interview-test/api"
+	"github.com/InVisionApp/case-study/api"
 )
 
 func main() {

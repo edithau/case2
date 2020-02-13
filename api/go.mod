@@ -1,4 +1,4 @@
-module github.com/InVisionApp/interview-test/api
+module github.com/InVisionApp/case-study/api
 
 go 1.13
 

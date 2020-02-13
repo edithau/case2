@@ -1,9 +1,9 @@
 package dal
 
 import (
-	"github.com/InVisionApp/interview-test/api/session"
-	"github.com/InVisionApp/interview-test/api/team"
-	"github.com/InVisionApp/interview-test/api/user"
+	"github.com/InVisionApp/case-study/api/session"
+	"github.com/InVisionApp/case-study/api/team"
+	"github.com/InVisionApp/case-study/api/user"
 	"golang.org/x/crypto/bcrypt"
 )
 

@@ -3,7 +3,7 @@ package dal
 import (
 	"errors"
 
-	"github.com/InVisionApp/interview-test/api/team"
+	"github.com/InVisionApp/case-study/api/team"
 )
 
 // failDAL is a DAL that only has database failures.
