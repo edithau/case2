@@ -44,10 +44,30 @@ type LoginResponse struct {
 // @Failure 500 {object} rye.JSONStatus "Unexpected server error, refer to the error message"
 // @Router /api/v1/login [post]
 func (a *API) loginHandler(rw http.ResponseWriter, r *http.Request) *rye.Response {
-	// Hint: Returning a *rye.Response will generate a rye.JSONStatus for the response.
-	//       Just need to set the StatusCode and Err fields.
 
-	// Hint: Use a.apiDAL.Authenticate() to verify credentials.
+	//
+	// Hint#1: This method is called when a client wants to authenticate, the API will check the caller (@Failure 403).
+	//
+
+	//
+	// Hint#2: Returning a *rye.Response will generate a rye.JSONStatus for the response (@Failure 400).
+	//         You just need to set the StatusCode and Err fields.
+	//
+	// Example:
+	//
+	// return &rye.Response{
+	//   StatusCode: 400,
+	//   Err:        errors.New("Invalid request"),
+	// }
+	//
+
+	//
+	// Hint#3: Use a.apiDAL.Authenticate() to verify credentials (@Failure 401)
+	//
+	// Example:
+	//
+	// err := a.apiDAL.Authenticate(email, password)
+	//
 
 	return nil
 }
